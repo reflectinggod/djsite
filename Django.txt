@@ -1,0 +1,20 @@
+.\venv\Scripts\activate
+
+(venv) I:\Dev\djtest1>pip install django
+
+(venv) I:\Dev\djtest1>pip list
+
+(venv) I:\Dev\djtest1>django-admin
+
+(venv) I:\Dev\djtest1>django-admin startproject testsite
+
+(venv) I:\Dev\djtest1>cd testsite
+
+(venv) I:\Dev\djtest1\testsite>python manage.py runserver
+
+Ctrl+Break
+
+(venv) I:\Dev\djtest1\testsite>python manage.py runserver
+
+(venv) I:\Dev\djtest1\testsite>python manage.py startapp testapp
+
