@@ -18,3 +18,11 @@ Ctrl+Break
 
 (venv) I:\Dev\djtest1\testsite>python manage.py startapp testapp
 
+git init
+git add -A
+git status
+git commit -m "First commit"
+git remote add origin ssh://github.com/reflectinggod/djsite.git
+git branch -M main
+git push -u origin main
+
